@@ -1632,7 +1632,8 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int ic_action_search=0x7f020033;
+        public static final int ic_launcher=0x7f020034;
     }
     public static final class id {
         public static final int action_bar=0x7f050031;
@@ -1648,6 +1649,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f05002e;
         public static final int action_mode_bar_stub=0x7f05002d;
         public static final int action_mode_close_button=0x7f050020;
+        public static final int action_search=0x7f050041;
         public static final int action_settings=0x7f050040;
         public static final int activity_chooser_view_content=0x7f050021;
         public static final int always=0x7f05000d;
@@ -1757,6 +1759,7 @@ containing a value of this type.
     public static final class menu {
         public static final int display_message=0x7f0c0000;
         public static final int main=0x7f0c0001;
+        public static final int main_activity_actions=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1815,6 +1818,7 @@ containing a value of this type.
         /**  Content description for the Toolbar icon used to collapse an expanded action mode. [CHAR LIMIT=NONE] 
          */
         public static final int abc_toolbar_collapse_description=0x7f0a0004;
+        public static final int action_search=0x7f0a0017;
         public static final int action_settings=0x7f0a0013;
         public static final int app_name=0x7f0a0010;
         public static final int button_send=0x7f0a0012;
