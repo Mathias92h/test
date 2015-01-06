@@ -9,5 +9,7 @@
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_search">Action_search</string>
+    <string name="php_result">no Result yet</string>
+    <string name="LoginPost">Login - Post</string>
 
 </resources>

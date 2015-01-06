@@ -9,8 +9,42 @@
     tools:context="com.example.myapp.DisplayMessageActivity" >
 
     <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="78dp"
+        android:text="@string/php_result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/buttonLoginPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:onClick="loginPost"
+        android:text="@string/LoginPost" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonLoginPost"
+        android:layout_alignRight="@+id/textViewResult"
+        android:layout_alignTop="@+id/buttonLoginPost"
+        android:layout_toRightOf="@+id/buttonLoginPost" 
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
 
 </RelativeLayout>
